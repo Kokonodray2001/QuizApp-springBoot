@@ -1,3 +1,4 @@
+//contains interaction with DATABASE only
 package com.kokonod.quizApp.dao;
 
 import com.kokonod.quizApp.model.Question;

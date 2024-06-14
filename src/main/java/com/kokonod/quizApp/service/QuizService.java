@@ -32,7 +32,7 @@ public class QuizService {
                 quiz.setTitle(title);
                 quiz.setQuestions(questions);
                 quizDao.save(quiz);
-                return new ResponseEntity<>("added quiz successfully", HttpStatus.CREATED);
+                return new ResponseEntity<>(""+quiz.getId(), HttpStatus.CREATED);
             }
 
             }catch (Exception e){
